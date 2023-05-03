@@ -1,0 +1,43 @@
+.Property {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  position: relative;
+
+  .image {
+    object-fit: cover;
+    cursor: pointer;
+  }
+
+  .title {
+    font-size: 1.5em;
+    cursor: pointer;
+
+    .verifiedIcon {
+      color: green;
+      font-size: 20px;
+      margin-right: 10px;
+    }
+  }
+
+  .downSection {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    color: rgb(26, 148, 254);
+
+    p {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+    }
+
+    .logo {
+      border-radius: 100%;
+      object-fit: cover;
+      position: absolute;
+      bottom: 75px;
+      right: 20px;
+    }
+  }
+}
