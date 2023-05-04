@@ -15,14 +15,16 @@ const Property = ({
       <Image
         className={styles.image}
         src={coverPhoto ? coverPhoto.url : DefaultImage}
-        width={400}
-        height={250}
+        width={350}
+        height={200}
         alt="house"
       />
+
       <h4 className={styles.title}>
         <GoVerified className={styles.verifiedIcon} />
         {title.length > 30 ? `${title.substring(0, 25)}...` : title}
       </h4>
+
       <div className={styles.downSection}>
         <p>
           AED {millify(price)}

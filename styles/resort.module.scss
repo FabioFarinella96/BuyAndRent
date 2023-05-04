@@ -1,0 +1,89 @@
+.resort {
+  .container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin: 40px 0;
+
+    p {
+      color: grey;
+    }
+
+    .imageContainer {
+      width: 300px;
+      height: 300px;
+      position: relative;
+
+      .image {
+        border-radius: 20px;
+      }
+      .logo {
+        border-radius: 100%;
+        position: absolute;
+        bottom: 20px;
+        right: 20px;
+        z-index: 1;
+      }
+    }
+  }
+
+  .form {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-bottom: 40px;
+    position: relative;
+
+    h2 {
+      font-size: 2em;
+      margin-bottom: 10px;
+    }
+
+    .input {
+      font-size: 20px;
+      background-color: rgb(221, 221, 221);
+      padding: 12px 20px;
+      border: 0;
+      outline-style: none;
+    }
+
+    .button {
+      margin-top: 20px;
+      padding: 10px 12px;
+      font-size: 20px;
+      font-weight: bold;
+      border: 0;
+      border-radius: 20px;
+      background-color: rgb(102, 184, 255);
+      cursor: pointer;
+    }
+  }
+
+  .popUp {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    width: 300px;
+    height: 300px;
+    border: 1px solid rgb(202, 202, 202);
+    border-radius: 12px;
+    padding: 50px;
+    margin: 40px auto;
+
+    p {
+      font-size: 20px;
+      text-align: center;
+      line-height: 1.4;
+    }
+
+    .icon {
+      font-size: 30px;
+      color: green;
+    }
+  }
+}

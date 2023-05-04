@@ -1,8 +1,14 @@
 .Property {
+  width: 350px;
   display: flex;
   flex-direction: column;
   gap: 10px;
   position: relative;
+
+  .infoLink {
+    text-decoration: none;
+    color: rgb(22, 22, 22);
+  }
 
   .image {
     object-fit: cover;
@@ -10,7 +16,7 @@
   }
 
   .title {
-    font-size: 1.5em;
+    font-size: 1.3em;
     cursor: pointer;
 
     .verifiedIcon {

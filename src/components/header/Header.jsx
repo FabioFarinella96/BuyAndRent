@@ -11,7 +11,7 @@ import {
   Spacer,
 } from "@chakra-ui/react";
 import { FcMenu, FcHome, FcAbout } from "react-icons/fc";
-import { BsSearch } from "react-icons/bs";
+import { BsSearch, BsBuildingAdd } from "react-icons/bs";
 import { FiKey } from "react-icons/fi";
 
 const Header = () => {
@@ -84,6 +84,18 @@ const Header = () => {
                   icon={<FiKey />}
                 >
                   Rent Property
+                </MenuItem>
+              </Link>
+              <Link className={styles.menuItem} href="/info" passHref>
+                <MenuItem
+                  padding="5px 8px"
+                  fontSize="20px"
+                  color="black"
+                  cursor="pointer"
+                  border="0"
+                  icon={<BsBuildingAdd />}
+                >
+                  Build your resort
                 </MenuItem>
               </Link>
             </MenuList>
